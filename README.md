@@ -1,6 +1,6 @@
 ### Sorting Algorithms
 
-1. Bubble Sort:
+#### 1. Bubble Sort:
 
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. It gets its name because smaller elements gradually "bubble" to the top of the list.
 
@@ -29,7 +29,7 @@ bubbleSort(arr);
 console.log("Bubble sort result:", arr);
 ```
 
-2. Selection Sort
+#### 2. Selection Sort
 
 Selection Sort is a simple sorting algorithm that divides the input array into two parts: a sorted subarray and an unsorted subarray. It repeatedly selects the smallest (or largest, depending on the sorting order) element from the unsorted subarray and moves it to the end of the sorted subarray.
 
@@ -68,7 +68,7 @@ selectionSort(arr);
 console.log("Selection sort result:", arr);
 ```
 
-3. Insertion Sort
+#### 3. Insertion Sort
 
 Insertion Sort is another simple sorting algorithm that builds the final sorted array one item at a time. It iterates through the input array and grows a sorted array behind it. At each iteration, the algorithm removes one element from the input data, finds its correct position within the sorted array, and inserts it there.
 
@@ -102,7 +102,7 @@ insertionSort(arr);
 console.log("Insertion sort result:", arr);
 ```
 
-4. Merge Sort
+#### 4. Merge Sort
 
 Merge Sort is a popular divide-and-conquer sorting algorithm. It works by recursively dividing the input array into smaller subarrays until each subarray contains only one element. Then, it merges these subarrays back together in a sorted manner.
 
@@ -169,7 +169,7 @@ let sortedArr = mergeSort(arr);
 console.log("Merge sort result:", arr);
 ```
 
-5. Quick Sort
+#### 5. Quick Sort
 
 Quick Sort is a widely used sorting algorithm known for its efficiency and average-case performance of O(n log n). It follows the divide-and-conquer approach by recursively partitioning the array into smaller subarrays based on a chosen pivot element.
 
@@ -215,7 +215,7 @@ quickSort(arr);
 console.log("Quick sort result:", arr);
 ```
 
-6. Heap Sort
+#### 6. Heap Sort
 
 Heap Sort is a comparison-based sorting algorithm that builds a binary heap from the input array and repeatedly extracts the maximum (for a max-heap) or minimum (for a min-heap) element from the heap, thereby forming a sorted array.
 
